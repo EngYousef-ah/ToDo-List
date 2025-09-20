@@ -162,12 +162,12 @@ export default function Todo({todo}) {
             
 
         <Grid container spacing={2}>
-            <Grid size={8}>
+            <Grid size={7}>
                 <Typography variant="h5" sx={{textAlign:"right"}} style={{textDecoration:todo.isCompleted ? "line-through" :"none"}}> {todo.title}</Typography>
                 <Typography variant="h6" sx={{textAlign:"right"}} >  {todo.details}</Typography>
             </Grid>
 
-            <Grid size={4} display="flex" justifyContent="space-between" alignItems="center">
+            <Grid size={5} display="flex" justifyContent="space-between" alignItems="center">
                 <IconButton className="iconButton" onClick={() => {
                     handleIconClick();
                 }}

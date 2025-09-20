@@ -90,8 +90,6 @@ export default function TodoList() {
       <Container maxWidth="sm">
         <Card sx={{ minWidth: 275 }} style={{
             maxHeight:"90vh",
-            minWidth:"50px",
-            
             overflow:"scroll"
         }}>
         <CardContent>
